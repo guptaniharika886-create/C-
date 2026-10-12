@@ -1,0 +1,17 @@
+//THE UPDATION IN ARRAY
+
+#include <iostream>
+using namespace std;
+
+int main(){
+int arr[6]={12,34,56,78,90,88};
+    cout<<"The updated array is:\n";
+    for(int i=0;i<6;i++){
+        arr[i-1]=arr[i];
+        cout<<arr[i]<<",";
+    }
+    for(int i=0;i<5;i++){
+        cout<<"\nThe index is"<< i<< "value is -:"<<arr[i]<<"\n";
+    }
+    return 0;
+}
