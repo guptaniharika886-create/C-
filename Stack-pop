@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+#define max_size=10
+int top=-1, stack[1];
+void pop();
+void display();
+int main(){
+    pop();
+}
+void pop()
+{
+    if(top==-1){
+        cout<<"Underflow";
+        top--;
+          
+    }
+}
+void display(){
+    for(int i=0;i<=top;i++)
+        cout<<stack[i]<<",";
+    cout<<"\n";
+  }
+}
